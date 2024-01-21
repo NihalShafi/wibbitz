@@ -44,9 +44,9 @@ plugins={[
                   className="bg-gray-200  group rounded-md  flex  items-center flex-col py-5 px-2">
               <div className="">
                 <Image
-                  className="w-"
+                  className="object-cover w-[270px]"
                   src={`${e.path}`}
-                  width={250}
+                  width={200}
                   height={100}
                   alt="hello"
                 />
