@@ -19,6 +19,8 @@ const CardsRendering = () => {
 plugins={[
   Autoplay({
     delay: 2500,
+    stopOnInteraction:false,
+    stopOnFocusIn:false
   })
   
 ]}

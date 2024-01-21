@@ -15,8 +15,12 @@ const FreedomCarsoule = () => {
 
 plugins={[
   Autoplay({
-    delay: 2500,
+    delay: 2000,
+    stopOnInteraction:false,
+    stopOnFocusIn:false
   })
+  
+  
   
 ]}
         opts={{
@@ -26,7 +30,7 @@ plugins={[
         }}
         className="w-[75%] md:hidden mt-2  "
       >
-        <CarouselContent className='flex items-center '
+        <CarouselContent className='flex p-1 items-center '
          >
         
             
@@ -37,12 +41,12 @@ plugins={[
                 className='basis-[65%]'>
                   <div 
                   key={e.id}
-                  className="bg-gray-200  group rounded-md  hover:shadow-xl transition-all duration-200 flex  items-center flex-col py-5 px-2">
+                  className="bg-gray-200  group rounded-md  flex  items-center flex-col py-5 px-2">
               <div className="">
                 <Image
                   className="w-"
                   src={`${e.path}`}
-                  width={300}
+                  width={250}
                   height={100}
                   alt="hello"
                 />
