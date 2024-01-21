@@ -32,7 +32,9 @@ plugins={[
             
             {
               freedom.map((e)=>(
-                <CarouselItem className='basis-[65%]'>
+                <CarouselItem 
+                key={e.id}
+                className='basis-[65%]'>
                   <div 
                   key={e.id}
                   className="bg-gray-200  group rounded-md  hover:shadow-xl transition-all duration-200 flex  items-center flex-col py-5 px-2">

@@ -9,7 +9,7 @@ const Trusted = () => {
         Trusted by content creators across the world
       </h1>
       <div className="grid grid-cols-2 justify-items-center lg:justify-center w-full md:grid-cols-4 box-border gap-4  lg:flex mt-4 ">
-        {images.map((e, index) => (
+        {images.map((e, ) => (
           <div key={e.id} 
           className="w-20 flex  justify-center">
             <Image
