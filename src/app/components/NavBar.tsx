@@ -42,21 +42,7 @@ export const NavBar = () => {
                 alt="wibitz"/>
             </div>
 
-            <div className="lg:block hidden">
-                {itmes.map((e)=>(
-                    <div key={e.id}>{e.name}</div>
-                )
-
-                )}
-            </div>
-
-            <div className="">
-                <Image
-                src="/images/logo.svg"
-                width={100}
-                height={100}
-                alt="wibitz"/>
-            </div>            
+            
         </div>
     )
 }
